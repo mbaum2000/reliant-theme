@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="22"
+   height="22"
+   id="svg2160"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="bluetooth-active.svg">
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1067"
+     inkscape:window-height="480"
+     id="namedview28"
+     showgrid="false"
+     inkscape:zoom="10.727273"
+     inkscape:cx="11"
+     inkscape:cy="11"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2160" />
+  <defs
+     id="defs2162">
+    <linearGradient
+       id="linearGradient3908">
+      <stop
+         id="stop3910"
+         style="stop-color:#8badea;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3912"
+         style="stop-color:#6396cd;stop-opacity:1"
+         offset="0.2261835" />
+      <stop
+         id="stop3914"
+         style="stop-color:#3b7caf;stop-opacity:1"
+         offset="0.66093999" />
+      <stop
+         id="stop3916"
+         style="stop-color:#194c70;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4140">
+      <stop
+         id="stop4142"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop4144"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8692">
+      <stop
+         id="stop8694"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop8696"
+         style="stop-color:#000000;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter3274">
+      <feGaussianBlur
+         id="feGaussianBlur3276"
+         stdDeviation="0.511583" />
+    </filter>
+    <linearGradient
+       id="linearGradient2490-182-124">
+      <stop
+         id="stop2788"
+         style="stop-color:#1f4b6a;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop2790"
+         style="stop-color:#4083c2;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="11.355216"
+       y1="3.3076737"
+       x2="11.355216"
+       y2="18.202812"
+       id="linearGradient3893"
+       xlink:href="#linearGradient4140"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0716561,0,0,1.0776726,-0.51548875,-1.3932354)" />
+    <linearGradient
+       x1="25"
+       y1="46"
+       x2="24"
+       y2="-1"
+       id="linearGradient3901"
+       xlink:href="#linearGradient2490-182-124"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.41275811,0,0,0.4239091,1.366532,1.2500907)" />
+    <radialGradient
+       cx="27"
+       cy="45.047184"
+       r="17.625"
+       fx="27"
+       fy="45.047184"
+       id="radialGradient3904"
+       xlink:href="#linearGradient8692"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.50858335,0,3.656466e-6,0.14184399,-2.7319157,13.161012)" />
+    <linearGradient
+       x1="27"
+       y1="-5"
+       x2="27"
+       y2="54"
+       id="linearGradient3906"
+       xlink:href="#linearGradient3908"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.41275811,0,0,0.4239091,1.366532,0.82618163)" />
+  </defs>
+  <rect
+     width="13.608258"
+     height="19.062803"
+     rx="6.818182"
+     ry="6.818182"
+     x="4.4685984"
+     y="1.4685984"
+     id="rect3363"
+     style="color:#000000;fill:url(#linearGradient3906);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient3901);stroke-width:0.93719667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
+  <rect
+     width="11.788217"
+     height="17.242764"
+     rx="5.909091"
+     ry="5.909091"
+     x="5.3786187"
+     y="2.3786192"
+     id="rect3365"
+     style="opacity:0.3;color:#000000;fill:none;stroke:url(#linearGradient3893);stroke-width:0.93905634;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible" />
+  <path
+     d="M 14.638608,9.077196 32.499999,-6.708303 23.58028,-15.5 23.553586,13.5 32.493732,4.775843 14.500001,-8.393903"
+     transform="matrix(0.33491917,0,0,0.3468092,2.9185214,10.990446)"
+     id="path3401"
+     style="opacity:0.4;fill:none;stroke:#000000;stroke-width:2.66742373;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3274)"
+     inkscape:connector-curvature="0" />
+  <path
+     d="M 7.8212722,14.485309 13.803394,9.010756 10.816008,5.9617149 10.807099,16.019179 13.801325,12.993561 7.7748799,8.4261744"
+     id="path3367"
+     style="fill:none;stroke:#ffffff;stroke-width:0.90909088;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     inkscape:connector-curvature="0" />
+</svg>

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Reliant
+Type=X-GNOME-Metatheme
+Comment=
+
+[X-GNOME-Metatheme]
+GtkTheme=BlueMenta
+MetacityTheme=Reliant
+IconTheme=Reliant
+GtkColorScheme=bg_color_dark:#3f3f3f,text_color_dark:#FFF
+CursorTheme=mate
+CursorSize=24

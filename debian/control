@@ -1,0 +1,31 @@
+Source: reliant-theme
+Section: gnome
+Priority: optional
+Maintainer: Mike Baum <mb694@cairn.edu>
+Build-Depends: debhelper (>= 7.0.50~),
+               cdbs (>= 0.4.41)
+Standards-Version: 3.9.2
+Homepage: https://github.com/mbaum2000/reliant-theme/
+X-Python-Version: >= 2.4
+
+Package: reliant-icon-theme
+Architecture: all
+Depends: ${misc:Depends},
+         elementary-icon-theme
+Description: Reliant icon theme
+ An icon theme based on elementary with a more classic approach
+
+Package: reliant-metacity-theme
+Architecture: all
+Depends: ${misc:Depends}
+Description: Reliant metacity theme
+ A metacity theme reminiscent of the classic clearlooks style of old
+
+Package: reliant-theme
+Architecture: all
+Depends: ${misc:Depends},
+         reliant-icon-theme,
+         reliant-metacity-theme
+Description: Reliant desktop theme
+ A Desktop theme incorporating the reliant metacity and icon themes
+
