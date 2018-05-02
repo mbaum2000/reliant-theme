@@ -73,7 +73,7 @@ Copyright: Daniel Foré <Daniel.p.Fore@gmail.com>
 License: GPLv2
 Comment: Based on apps/24/transmission.svg from elementary-icon-theme v2.3 (https://launchpad.net/elementaryicons/2.0/2.3/+download/elementary.tar.gz) with reduced size
 
-Files: places/*/distributor-logo-ubuntu.svg
+Files: actions/*/list-add.svg, actions/*/list-remove.svg, places/*/distributor-logo-ubuntu.svg
 Copyright: Daniel Fore <Daniel.P.Fore@gmail.com>, Jonian Guveli <jonian.guveli@gmail.com>, K.Vishnoo Charan Reddy <vish@ubuntu.com>
 License: GPLv2
 Comment: Taken from humanity-icon-theme v0.6.5 (http://archive.ubuntu.com/ubuntu/pool/main/h/humanity-icon-theme/humanity-icon-theme_0.6.5.tar.gz places/*/distributor-logo.svg)

@@ -21,11 +21,19 @@ Depends: ${misc:Depends}
 Description: Reliant metacity theme
  A metacity theme reminiscent of the classic clearlooks style of old
 
+Package: reliant-gtk-theme
+Architecture: all
+Depends: ${misc:Depends},
+         mate-themes
+Description: Reliant gtk theme
+ Minor tweaks to the BlueMenta GTK theme from MATE
+
 Package: reliant-theme
 Architecture: all
 Depends: ${misc:Depends},
          reliant-icon-theme,
-         reliant-metacity-theme
+         reliant-metacity-theme,
+         reliant-gtk-theme
 Description: Reliant desktop theme
  A Desktop theme incorporating the reliant metacity and icon themes
 

@@ -4,6 +4,8 @@ DEFAULT_DISTRIBUTOR := debian
 ICON_DEST = $(DESTDIR)/usr/share/icons/Reliant
 THEME_DEST = $(DESTDIR)/usr/share/themes/Reliant
 METACITY_DEST = $(THEME_DEST)/metacity-1
+GTK2_DEST = $(THEME_DEST)/gtk-2.0
+GTK3_DEST = $(THEME_DEST)/gtk-3.0
 
 clean:
 
@@ -16,8 +18,14 @@ install: install-icons make-icon-symlinks install-theme
 install-theme:
 	install -d $(THEME_DEST)/
 	install -d $(METACITY_DEST)/
+	install -d $(GTK3_DEST)/
 	install -m 644 theme/index.theme $(THEME_DEST)/
 	install -m 644 -t $(METACITY_DEST)/ theme/metacity/*.png theme/metacity/metacity-theme-1.xml
+	install -m 644 -t $(GTK3_DEST)/ theme/gtk3/gtk.css theme/gtk3/reliant-overrides.css
+	ln -sf /usr/share/themes/BlueMenta/gtk-2.0/ \
+	      $(GTK2_DEST)
+	ln -sf /usr/share/themes/BlueMenta/gtk-3.0/settings.ini \
+	      $(GTK3_DEST)/settings.ini
 
 install-icons:
 	install -d $(ICON_DEST)/
