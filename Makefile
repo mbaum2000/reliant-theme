@@ -142,6 +142,26 @@ make-icon-symlinks: install-icons
 	      $(ICON_DEST)/devices/48/media-optical-dvd-rw.svg
 	ln -sf ./media-dvd.svg \
 	      $(ICON_DEST)/devices/48/media-optical-dvd.svg
+	ln -sf ./emblem-unreadable.svg \
+	      $(ICON_DEST)/emblems/16/emblem-noread.svg
+	ln -sf ./emblem-readonly.svg \
+	      $(ICON_DEST)/emblems/16/emblem-nowrite.svg
+	ln -sf ./emblem-unreadable.svg \
+	      $(ICON_DEST)/emblems/22/emblem-noread.svg
+	ln -sf ./emblem-readonly.svg \
+	      $(ICON_DEST)/emblems/22/emblem-nowrite.svg
+	ln -sf ./emblem-unreadable.svg \
+	      $(ICON_DEST)/emblems/24/emblem-noread.svg
+	ln -sf ./emblem-readonly.svg \
+	      $(ICON_DEST)/emblems/24/emblem-nowrite.svg
+	ln -sf ./emblem-unreadable.svg \
+	      $(ICON_DEST)/emblems/32/emblem-noread.svg
+	ln -sf ./emblem-readonly.svg \
+	      $(ICON_DEST)/emblems/32/emblem-nowrite.svg
+	ln -sf ./emblem-unreadable.svg \
+	      $(ICON_DEST)/emblems/48/emblem-noread.svg
+	ln -sf ./emblem-readonly.svg \
+	      $(ICON_DEST)/emblems/48/emblem-nowrite.svg
 	ln -sf ./audio-x-adpcm.svg \
 	      $(ICON_DEST)/mimes/16/application-ogg.svg
 	ln -sf ./application-x-deb.svg \

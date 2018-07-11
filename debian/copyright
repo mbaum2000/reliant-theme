@@ -18,7 +18,7 @@ Copyright: Daniel Foré <Daniel.p.Fore@gmail.com>
 License: GPLv2
 Comment: Taken from elementary-icon-theme v2.3 (https://launchpad.net/elementaryicons/2.0/2.3/+download/elementary.tar.gz)
 
-Files: devices/*/phone-apple-iphone.svg, panel/*/gnome-do-symbolic.svg
+Files: devices/*/phone-apple-iphone.svg, panel/*/gnome-do-symbolic.svg emblems/*/*.svg
 Copyright: Daniel Foré <Daniel.p.Fore@gmail.com>
 License: GPLv2
 Comment: Taken from elementary-icon-theme v2.7.1 (https://launchpad.net/elementaryicons/2.0/2.7.1/+download/elementary-icon-theme-2.7.1.tar.gz)

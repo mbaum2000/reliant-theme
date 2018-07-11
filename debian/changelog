@@ -1,3 +1,9 @@
+reliant-theme (0.10.1) bionic; urgency=medium
+
+  * Add scaled icons for readonly or noread emblems
+
+ -- Mike Baum <mb694@cairn.edu>  Tue, 10 Jul 2018 22:09:32 -0400
+
 reliant-theme (0.10) bionic; urgency=medium
 
   * Added GTK theme and other minor tweaks for Bionic
