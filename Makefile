@@ -3,6 +3,7 @@ DEFAULT_DISTRIBUTOR := debian
 
 ICON_DEST = $(DESTDIR)/usr/share/icons/Reliant
 THEME_DEST = $(DESTDIR)/usr/share/themes/Reliant
+DARK_THEME_DEST = $(DESTDIR)/usr/share/themes/Reliant-dark
 METACITY_DEST = $(THEME_DEST)/metacity-1
 GTK2_DEST = $(THEME_DEST)/gtk-2.0
 GTK3_DEST = $(THEME_DEST)/gtk-3.0
@@ -17,9 +18,11 @@ install: install-icons make-icon-symlinks install-theme
 
 install-theme:
 	install -d $(THEME_DEST)/
+	install -d $(DARK_THEME_DEST)/
 	install -d $(METACITY_DEST)/
 	install -d $(GTK3_DEST)/
-	install -m 644 theme/index.theme $(THEME_DEST)/
+	install -m 644 -T theme/index.theme $(THEME_DEST)/index.theme
+	install -m 644 -T theme/index-dark.theme $(DARK_THEME_DEST)/index.theme
 	install -m 644 -t $(METACITY_DEST)/ theme/metacity/*.png theme/metacity/metacity-theme-1.xml
 	install -m 644 -t $(GTK3_DEST)/ theme/gtk3/gtk.css theme/gtk3/reliant-overrides.css
 	ln -sf /usr/share/themes/BlueMenta/gtk-2.0/ \
@@ -1480,6 +1483,10 @@ make-icon-symlinks: install-icons
 	      $(ICON_DEST)/status/22/notification-network-ethernet-connected.svg
 	ln -sf ./network-offline.svg \
 	      $(ICON_DEST)/status/22/notification-network-ethernet-disconnected.svg
+	ln -sf ./indicator-messages.png \
+	      $(ICON_DEST)/status/22/indicator-notification-read.png
+	ln -sf ./indicator-messages-new.png \
+	      $(ICON_DEST)/status/22/indicator-notification-unread.png
 	ln -sf ./network-transmit-receive.svg \
 	      $(ICON_DEST)/status/22/stock_connect.svg
 	ln -sf ./network-offline.svg \
@@ -1562,6 +1569,10 @@ make-icon-symlinks: install-icons
 	      $(ICON_DEST)/status/24/notification-network-ethernet-connected.svg
 	ln -sf ./network-offline.svg \
 	      $(ICON_DEST)/status/24/notification-network-ethernet-disconnected.svg
+	ln -sf ./indicator-messages.png \
+	      $(ICON_DEST)/status/24/indicator-notification-read.png
+	ln -sf ./indicator-messages-new.png \
+	      $(ICON_DEST)/status/24/indicator-notification-unread.png
 	ln -sf ./network-transmit-receive.svg \
 	      $(ICON_DEST)/status/24/stock_connect.svg
 	ln -sf ./network-offline.svg \
@@ -1688,6 +1699,10 @@ make-icon-symlinks: install-icons
 	      $(ICON_DEST)/status/48/notification-network-ethernet-connected.svg
 	ln -sf ./network-offline.svg \
 	      $(ICON_DEST)/status/48/notification-network-ethernet-disconnected.svg
+	ln -sf ./indicator-messages.svg \
+	      $(ICON_DEST)/status/48/indicator-notification-read.svg
+	ln -sf ./indicator-messages-new.svg \
+	      $(ICON_DEST)/status/48/indicator-notification-unread.svg
 	ln -sf ./network-transmit-receive.svg \
 	      $(ICON_DEST)/status/48/stock_connect.svg
 	ln -sf ./network-offline.svg \

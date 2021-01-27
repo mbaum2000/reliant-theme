@@ -1,3 +1,10 @@
+reliant-theme (0.11) focal; urgency=medium
+
+  * Added indicator-notification icons
+  * Added dark mode theme
+
+ -- Mike Baum <mb694@cairn.edu>  Tue, 26 Jan 2021 22:01:45 -0500
+
 reliant-theme (0.10.1) bionic; urgency=medium
 
   * Add scaled icons for readonly or noread emblems

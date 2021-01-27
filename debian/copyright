@@ -43,6 +43,11 @@ Copyright: Victor C. <perfectska04@gmail.com>
 License: GPLv2
 Comment: Taken from gnome-colors v5.5.1 (http://gnome-colors.googlecode.com/files/gnome-colors-src-5.5.1.tar.gz)
 
+Files: status/*/indicator-notification-*-dnd.*
+Copyright: Victor C. <perfectska04@gmail.com>
+License: GPLv2
+Comment: Based on icons from gnome-colors v5.5.1 (http://gnome-colors.googlecode.com/files/gnome-colors-src-5.5.1.tar.gz)
+
 Files: status/48/nm-signal-*-secure.svg, status/*/nm-signal-*-secure.png
 Copyright: Victor C. <perfectska04@gmail.com>, Daniel Foré <Daniel.p.Fore@gmail.com>
 License: GPLv2

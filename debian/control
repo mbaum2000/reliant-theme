@@ -37,3 +37,13 @@ Depends: ${misc:Depends},
 Description: Reliant desktop theme
  A Desktop theme incorporating the reliant metacity and icon themes
 
+Package: reliant-theme-dark
+Architecture: all
+Depends: ${misc:Depends},
+         reliant-icon-theme,
+         marco-common,
+         gnome-themes-extra,
+         adwaita-qt
+Description: Reliant (Dark) desktop theme
+ A Desktop theme incorporating the reliant icon theme with a dark window style
+
